@@ -18,7 +18,7 @@ body{
 .navheader{
     background-color: #7D9BE0;
     color: #fff;
-    padding: 15px;
+    padding: 8px;
 }
 .search{
     width: 300px;
@@ -432,7 +432,7 @@ footer button.show{
     .navheader{
         background-color: #7D9BE0;
         color: #fff;
-        padding: 15px;
+        padding: 8px;
     }
     .search{
         width: 300px;
