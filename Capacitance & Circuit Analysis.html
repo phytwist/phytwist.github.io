@@ -23,8 +23,10 @@
          margin-top: 900px ;
         }
         }
-        
-            </style></head>
+
+
+            </style>
+            </head>
 <body>
    
     <div class="navheader">
@@ -103,7 +105,18 @@
         </div>
         <div class="buttons"></div>
            
+    <script> 
     
+    document.addEventListener("DOMContentLoaded", function(event) {
+    var fadeInElements = document.querySelectorAll('body');
+    fadeInElements.forEach(function(element) {
+        element.style.opacity = 1;
+    });
+});
+
+    
+    
+    </script>
 
 </body>
 </html>
