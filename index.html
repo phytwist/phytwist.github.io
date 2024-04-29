@@ -12,8 +12,23 @@
     background-color: aqua;
 }
 .formulaSpacing{
-  font-size: smaller
+ font-size: smaller;
 }
+.buttoN {
+  display: inline-block;
+  width:  150px;
+  border: 2px solid black;
+  color: black;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.buttoN:hover {
+  background-color: black;
+  color: white;
+}
+
     </style>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -49,18 +64,18 @@
             <div class="column" style="background-color:#7191ccd2;">
               <h3>Difficulty</h3><hr class="linya">
               <p style="margin-top: 10px;">
-                <a href="easy.html">Easy</a><br>
-                <a href="medium.html">Medium</a><br>
-                <a href="hard.html">Hard</a><br>
+                <a href="easy.html" class="buttoN">Easy</a><br>
+                <a href="medium.html" class="buttoN">Medium</a><br>
+                <a href="hard.html" class="buttoN">Hard</a><br>
              
               </p>
             </div>
             <div class="column" style="background-color: #7191ccd2;">
               <h3>Formulas</h3><hr class="linya">
-              <p style="margin-top: 10px;" class="formulaSpacing">
-                <a href="Kinetics & Electrochemistry.html" >Kinetics & Electrochemistry</a><br><br>
-                <a href="Capacitance & Circuit Analysis.html">Capacitance & Circuit Analysis</a><br><br>
-                <a href="Ohm's Law & Circuit Components.html" >Ohm's Law & Circuit Components</a><br>
+              <p>
+                <a href="Kinetics & Electrochemistry.html" class="buttoN formulaSpacing">Kinetics & Electrochemistry</a>
+                <a href="Capacitance & Circuit Analysis.html" class="buttoN formulaSpacing">Capacitance & Circuit Analysis</a>
+                <a href="Ohm's Law & Circuit Components.html" class="buttoN formulaSpacing">Ohm's Law & Circuit Components</a>
                    </p>
             </div>
            
